@@ -11,7 +11,7 @@ Dit resulteert in 3 categoriën van services/technische componenten:
 - Sommige services die nodig zijn voor inidividuele deelnemers om van Data Space Fysieke Leefomgeving (DSFL) gebruik te kunnen maken: deelnemer services
 - Andere services die nodig zijn voor de samenwerking tussen deelnemers: federatie services
 - Laatste categorie services zijn aanvullend om waarde te kunnen verhogen bovenop het uitwisselen van data: waardecreatie services
-
+zie issue: https://github.com/Geonovum/ZON-DA/issues/21
 > Voor de DSFL betekent dit:
 > - Het DSFL levert geen deelnemer services maar vertrouwd op al aanwezige (referentie) implementaties
 > - Het DSFL biedt voorzieningen die invulling geven aan de federatie services
@@ -46,16 +46,17 @@ Het autorisatiebeheer is een aandachtspunt; er is geen component beschikbaar voo
 
 6. Vocabulary Hub. 
 De betekenis en onderlinge samenhang van gegevenselementen dient inzichtelijk te zijn. Hiertoe dient onder andere de NL-SBB standaard, gebaseerd op SKOS. Dit is niet anders dan in andere dataspaces.
+zie issue https://github.com/Geonovum/ZON-DA/issues/22
 
-7. Logging functionaliteit. 
+8. Logging functionaliteit. 
 Bij het delen van gesloten data voor accountability. Dit is niet anders dan in andere dataspaces.
 
-8. De expertise rondom coordinaat referentie systemen. 
+9. De expertise rondom coordinaat referentie systemen. 
 De expertise rondom onze coordinaatreferentiestelsels (RD, NAP en LAT) is georganiseerd bij de Nederlandse Samenwerking Geodetische Infrastructuur (een samenwerking van het Kadaster, Rijkswaterstaat en de Dienst der Hydrografie van de Koninklijke Marine). Hier wordt bijvoorbeeld de transformatie API beheerd voor transformaties tussen coordinaatstelsels, ook naar internationale stelsels zoals ETRS'89 of WGS84. Dit is een blijvend van belang zijnde functie. 
 
-9. Idee: wegwijzer / helpdesk functie, bv om niet-geo gespecialiseerde organisaties op weg te helpen, bv met een vraag als 'hoe geo-refereer ik mijn dataset'. 
+10. Idee: wegwijzer / helpdesk functie, bv om niet-geo gespecialiseerde organisaties op weg te helpen, bv met een vraag als 'hoe geo-refereer ik mijn dataset'. 
 
-10. Idee: URI-strategie adviespunt. 
+11. Idee: URI-strategie adviespunt. 
 Als we meer en meer data met elkaar gaan delen, dan is het op enig moment wellicht nodig iets meer te gaan regelen rond UUID's. Hoewel dit in de eerdere Inventarisatie Data Ecosystemen alleen ter sprake kwam bij ZoN/NGII is dit niet anders dan in andere dataspaces.
 
 Een URI strategie is nodig om te borgen dat je het kunt ontsluiten voor linked data. Linked Data verschilt van conventiële technieken door het gebruik van verbonden data met semantiek die gemakkelijk kan worden verwerkt. Conventiële technieken gebruiken niet-verbonden datasets zonder semantische context. Het is nog wel een keuze of LinkedData ondersteunt moet worden; is er bereidheid de extra benodigde kwaliteit erin te steken.
@@ -98,6 +99,8 @@ Een minimale dataspace bestaat (volgens ISDA, zie [What is a Minimum Viable Data
 
 De App Store en Data Apps zijn optioneel. Een eerste versie van de DSFL zal nog geen herbruikbare Apps bevatten. Na enige tijd is het goed mogelijk deze toe te voegen.
 
+Zie issue: https://github.com/Geonovum/ZON-DA/issues/23
+
 > De DSFL zal bij de start geen App Store / Data Apps bevatten.
 
 **Metadata Broker**
@@ -121,6 +124,9 @@ De Vocabulary Hub is het platform waar gemeenschappelijk vocabulaires gepublicee
 Arno: Bovenstaande is gewijzigd door mij. Onderstaande opmerkingen zijn wellicht achterhaald?!
 HW: DCAT maakt weer net een ander onderscheid, de datasetserie ontbreekt hier. Bij RWS hanteren we het zo:
 IdV: in DCAT3 is er wel een klasse dataset series
+
+Zie issue https://github.com/Geonovum/ZON-DA/issues/24
+
 ![image](https://github.com/user-attachments/assets/1a6f7259-b67a-4def-af10-b50c21d6c35f)
 
 ## Componenten vanuit de EIRA 
@@ -136,7 +142,7 @@ Dataspace Connector Consumer; Definition: Data Space Connector Consumer ABB is a
 
 Er zijn ook nog een heel aantal andere enablers die optioneel onderdeel van de value service van een dataspace kunnen zijn of relevant kunnen zijn voor de aansluiting in het domein van de provider of de consumer. Het lijstje: API Enablers, Orchestration Enablers, Trust Enablers, Data Exchange Enablers, Translation Enablers, Privacy Enablers, Digital Workplace Enablers, Test Enablers, Security Enablers, Knowledge Dicovery Enablers, Analytics Enablers, Artificial Intelligence Enablers, Data Management Enablers, User Experience Management Enablers, Schedule Management Enablers.
 
-
+zie issue https://github.com/Geonovum/ZON-DA/issues/25
 
 ## Hergebruik van bestaande componenten
 <wat is er al, wie heeft het al/hergebruik, wat moet er nog ontwikkeld/bepaald/gekozen worden> 
@@ -146,6 +152,8 @@ Er zijn ook nog een heel aantal andere enablers die optioneel onderdeel van de v
 ## Identificatie
 De elektronische indentificatie en vertrouwensdienst voor elektronische transaties van personen is opgenomen in de VERORDENING (EU) Nr. 910/2014 VAN HET EUROPEES PARLEMENT EN DE RAAD, van 23 juli 2014
 <https://eur-lex.europa.eu/legal-content/NL/TXT/HTML/?uri=CELEX:32014R0910&from=NL>. De definitie die daarbij wordt gehanteerd voor "elektronishe identificatie": het proces van het gebruiken van persoonsidentificatiegegevens in elektronische vorm die op unieke wijze een natuurlijke persoon of rechtspersoon, of een natuurlijke persoon die een rechtspersoon vertegenwoordigt, aanduiden;  
+
+zie issue: https://github.com/Geonovum/ZON-DA/issues/26
 
 ## Autorisatie
 Volgens de IAM (Identity & Access Management) expertgroep van NORA gaat het bij Autorisatie om: Het proces om te beslissen of een Entiteit op grond van een Authenticatiemiddel, Identiteitsverklaring, of een Machtiging, toegang krijgt tot een Resource. De beslissing wordt mede gebaseerd op de bij de resource behorende Autorisatieregels en omgevingsfactoren. Voorbeelden van omgevingsfactoren zijn het moment op de dag en de locatie. Vaak is er een splitsing in een functie om de autorisatie-beslissing te nemen (ook wel genoemd: PDP = Policy Decision Point) wat resulteert in een autorisatie-beslissing (soms ook toegangstoken genoemd) en een functie om deze beslissing af te dwingen op basis van de autorisatie-beslissing (ook wel genoemd: PEP = Policy Enforcement Point). De beslissingsfunctie (PDP) functie kan zowel binnen een dienst als daarbuiten worden uitgevoerd; het afdwingen van de beslissing (PEP) wordt noodzakelijkerwijs altijd binnen de dienst uitgevoerd.
