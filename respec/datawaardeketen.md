@@ -140,6 +140,10 @@ De bestuursorganen, zitting hebbend in het GI-beraad, hebben als eerste profijt 
     - Informatiebehoeften in de keten
 
 ## Voorwaarden en afspraken (Danny/Rene/Ine)
+
+zie issue https://github.com/Geonovum/ZON-DA/issues/27
+zie issue https://github.com/Geonovum/ZON-DA/issues/28
+
 Een datastelsel is vooral een afsprakenstelsel, waarbij de afspraken middels technische standaarden en protocollen worden uitgevoerd/geïmplementeerd. 
 
 De deelnemende partijen spreken af om te voldoen aan een set van basisvoorwaarden, waardoor vervolgens gegevens efficiënt en effectief kunnen worden uitgewisseld. Basisvoorwaarden gaan bijvoorbeeld over rechten en plichten van deelnemers, de wijze van identificeren en autoriseren van deelnemers, de manier waarop gegevens moeten worden aangeboden en de metagegevens die daarbij moeten worden aangeleverd, maar ook organisatorische zaken zoals financiering. 
@@ -173,6 +177,9 @@ Er zullen ook afspraken moeten worden gemaakt over de te gebruiken protocollen e
 Een ander onderwerp waarvoor het nodig is om afspraken over te maken is historie. In bepaalde gebruikscontexten is er behoefte aan specifieke vormen van historie. Bronnen moeten specifiek ontworpen zijn om specifieke vormen van historie te ondersteunen. Dit is niet iets dat achteraf eenvoudig kan worden toegevoegd aan een bron. In algemene zin zou een bron in ieder geval in ieder geval de wijzigingen in de bron zelf moeten registreren (formele historie). Het vastleggen van de historie van wijzigingen van objecten in de werkelijkheid (materiële historie) vraagt meer inspanning. Hierop moet het inwinningsproces ook zijn ingericht.
 
 ## Procesafspraken over ontsluiten
+
+zie issue: zie issue https://github.com/Geonovum/ZON-DA/issues/30
+
 IdV: Bij de meeste organisaties zijn de bestaande afspraken uit het GI-beraad voor het beheer en ontsluiten van ruimtelijke data voor hergebruik bekend en worden tot op zekere hoogte nageleefd.  
 
 De afspraken over ontsluiten van geodata lijken minder bekend bij de individuele gemeenten en waterschappen. Publicatie en hergebruik van (geo)data wordt relevanter met de opkomst van smart cities en digital twins. Het is van belang de gemeenten en waterschappen te stimuleren de afspraken na te komen. Dat geldt overigens ook voor alle andere overheden: de basis van ontsluiten van (geo)data moet op orde zijn om mee te kunnen doen in het federatief data delen in bijvoorbeeld de dataspace fysieke leefomgeving. 
@@ -220,6 +227,8 @@ In een datastelsel ligt de nadruk op het uitwisselen van gegevens. Daarbij is he
 > De kwaliteit van gegevens wordt uitgedrukt in termen van de standaard begrippen in het NORA raamwerk gegevenskwaliteit
 
 ## Publicatie (Arno)
+
+zie issue https://github.com/Geonovum/ZON-DA/issues/29
 
 Ine gaat dit samenvoegen met paragraaf over metadata
 
